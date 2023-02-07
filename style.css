@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #334;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+
+/* Header */
+
+header {
+  padding: 25px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logoimg {
+  width: 18%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+header a:hover {
+  background-color: rgb(0, 0, 114);
+}
+
+/* Main */
+
+main {
+  position: relative;
+  top: 68px;
+}
+
+main .fotoprog {
+  position: relative;
+  left: 700px;
+  top: -230px;
+}
+
+main h1 {
+  font-size: 2em;
+  position: relative;
+  margin: 30px;
+  top: 100px;
+}
+
+main .p1 {
+  font-size: 1.5em;
+  margin: 30px;
+  position: relative;
+  top: 70px;
+}
+
+main .p2 {
+  font-size: 1.5em;
+  margin: 30px;
+  position: relative;
+  top: 70px;
+}
+
+main .entrar {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.2em;
+  color: #fff;
+  position: relative;
+  top: -370px;
+  left: 30px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+main .entrar:hover {
+  background-color: #334;
+  border: 0.5px solid #fff;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  padding: 25px;
+  background-color: #222;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
